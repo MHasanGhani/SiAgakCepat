@@ -74,7 +74,7 @@ export const TrackingSection: React.FC<TrackingSectionProps> = ({
   const handleCopyLink = () => {
     if (!currentTracking) return;
     navigator.clipboard.writeText(
-      `${window.location.origin}?resi=${currentTracking.trackingNumber}`
+      `${window.location.origin}${window.location.pathname}?resi=${currentTracking.trackingNumber}`
     );
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);

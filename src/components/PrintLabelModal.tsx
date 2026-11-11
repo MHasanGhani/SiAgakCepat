@@ -64,7 +64,7 @@ export const PrintLabelModal: React.FC<PrintLabelModalProps> = ({
             <div className="flex items-center justify-between border-b-2 border-black pb-3">
               <div className="flex items-center gap-2">
                 <img
-                  src="/assets/aistudio/Screenshot_2026-11-04_215456_51f1aa62.png"
+                  src={`${import.meta.env.BASE_URL}assets/aistudio/Screenshot_2026-11-04_215456_51f1aa62.png`}
                   alt="Si Agak Cepat"
                   className="h-9 w-auto object-contain"
                   referrerPolicy="no-referrer"

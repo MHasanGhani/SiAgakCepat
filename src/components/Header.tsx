@@ -44,7 +44,7 @@ export const Header: React.FC<HeaderProps> = ({
           >
             <div className="relative flex items-center justify-center h-12 w-auto">
               <img
-                src="/assets/aistudio/Screenshot_2026-11-04_215456_51f1aa62.png"
+                src={`${import.meta.env.BASE_URL}assets/aistudio/Screenshot_2026-11-04_215456_51f1aa62.png`}
                 alt="Si Agak Cepat Logo"
                 className="h-10 w-auto object-contain transition-transform group-hover:scale-105"
                 referrerPolicy="no-referrer"

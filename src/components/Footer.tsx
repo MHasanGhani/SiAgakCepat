@@ -16,7 +16,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavClick, onRequestPickup }) =
           <div className="md:col-span-1 space-y-4">
             <div className="flex items-center gap-3">
               <img
-                src="/assets/aistudio/Screenshot_2026-11-04_215456_51f1aa62.png"
+                src={`${import.meta.env.BASE_URL}assets/aistudio/Screenshot_2026-11-04_215456_51f1aa62.png`}
                 alt="Si Agak Cepat"
                 className="h-10 w-auto object-contain"
                 referrerPolicy="no-referrer"
