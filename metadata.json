@@ -1,0 +1,6 @@
+{
+  "name": "Si Agak Cepat - Ekspedisi & Pengiriman Paket",
+  "description": "Layanan ekspedisi terpercaya dengan fitur pelacakan resi real-time dan kalkulator estimasi ongkir otomatis.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
